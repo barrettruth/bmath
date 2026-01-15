@@ -9,3 +9,7 @@ header-only c++ 23 math library
 - factorization (pollard-rho, rabin-miller)
 - profiling
 - saturating arithmetic operations
+
+## motivation
+
+built to learn and apply modern c++ in a competitive programming environment
