@@ -8,8 +8,6 @@
 
 namespace bmath {
 
-  auto _ = 1+1;
-
 template <typename Derived, size_t Limit>
   requires(Limit > 0)
 class Sieve {
