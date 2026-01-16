@@ -2,19 +2,9 @@ name: ci
 
 on:
   push:
-    paths:
-      - 'include/**'
-      - 'src/**'
-      - 'tests/**'
-      - 'CMakeLists.txt'
-      - '.github/workflows/**'
+    branches: [main]
   pull_request:
-    paths:
-      - 'include/**'
-      - 'src/**'
-      - 'tests/**'
-      - 'CMakeLists.txt'
-      - '.github/workflows/**'
+    branches: [main]
 
 jobs:
   format:
